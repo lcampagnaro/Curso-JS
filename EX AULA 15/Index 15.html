@@ -5,26 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo</title>
+    <title>Verificador de Idade</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Verificador de Idade</h1>
     </header>
     <section>
         <div>
-            <p>Testando...</p>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0" max="2030">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label> Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label> Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
         </div>
-        <div>
-            Novo teste
+        <div id="res">
+            Preencha os dados acima, e o resultado será calculado!
         </div>
     </section>
     <footer>
         <p>&copy; Leandro Campagnaro Produções</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js "></script>
     <</body>
 
 </html>
