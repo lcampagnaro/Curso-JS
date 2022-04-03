@@ -8,12 +8,13 @@
     }
     
     section {
-        background-color: white;
+        background-color: rgb(155, 154, 154);
         border-radius: 15px;
         padding: 15px;
         width: 500px;
         margin: auto;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.534);
+        text-align: center;
     }
     
     footer {
