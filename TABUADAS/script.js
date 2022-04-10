@@ -12,7 +12,7 @@ function tabuada() {
             item.text = `${n} x ${c} = ${n*c}`
             item.value = `tab${c}`
             tab.appendChild(item)
-            c += 1
+            c++
         }
     }
 }
